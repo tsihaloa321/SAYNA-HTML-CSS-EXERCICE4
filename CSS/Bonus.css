@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font  */
+@font-face {
+  font-family: 'spidy';
+  src: url(../far_from_homecoming/Updated.otf);
+}
+/* Selecteur UNIVESELLE  */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variable */
+:root {
+  --red: #B11313;
+    --yellow: #f1c530;
+    --blue: #114c92;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  height: 100%;
+  width:100%;
+}
+
+/* NavBar  */
+nav {
+  display: flex;
+  background: #B11313;
+  padding: 15px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logos img {
+  margin: 0 10px;
+}
+nav a{
+text-decoration: none;
+padding-inline: 40px;
+    color: #FFFFFF;}
+.booton{
+  background: #B11313;
+  border: none;
+  color: #FFFFFF;
+  margin-right: : 7%;
+}
+.booton:hover{
+  font-size: 17px;
+}
+header {
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  min-height: 800px;
+  width: 100%;
+  padding: 5px;
+}
+header h1 {
+  font-family: 'spidy';
+  color: #FFFFFF;
+  font-size: 8vw;
+  padding-left: 6%;
+}
+h2 {
+  color:#FFFFFF;
+}
+
+
+footer {
+  background: #000000;
+  min-height: 300px;
+  min-width: 500px;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 30px;
+}
+footer .liste {
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  display: flex;
+}
+footer .item {
+  order: 1;
+}
+footer .none {
+  display: none;
+}
+footer #langue {
+  order: 2;
+}
+footer .container a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+footer .item a {
+  margin-left: 15px;
+  color: var(--white);
+  text-decoration: none;
+}
+select {
+  background: #B11313;
+  color: #FFFFFF;
+  padding: 5px 20px 5px 4px;
+  outline: none;
+  width: 150px;
+  border: none;
+  border-radius: 50px;
+}
+footer .footer-icone {
+  display: flex;
+  margin-top: 150px;
+  margin: 100px 0px 15px 0px;
+  justify-content: center;
+}
+footer .footer-icone img {
+  background: #B11313;
+  margin-left: 15px;
+  border-radius: 50px;
+  padding: 10px;
+}
+footer p{
+  color: #FFFFFF;
+}

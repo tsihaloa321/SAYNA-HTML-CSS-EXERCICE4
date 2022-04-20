@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS/home.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/button.css">
+</head>
+
+<body>
+    <!-- booton  -->
+    <nav>
+        <div class="logos">
+            <img src="Logo/logo1.png" alt="Sayna" />
+            <img src="Logo/logo2.png" alt="croix" />
+            <img src="Logo/logo3.png" alt="Marvel" />
+        </div>
+        <div class="listes">
+            <a href="#"><button class="home home1">Accueil </button></a>
+            <a href="Adversaire.html"> <button class="booton">Adversaires</button></a>
+            <a href="Heros.html" ><button class="booton">Héros</button></a>
+            <a href="Apropos.html"><button class="booton">&Agrave;propos </button></a>
+            <a href="Bonus.html"><button class="booton"> Bonus </button></a>
+        </div>
+    </nav>
+
+    <!-- Entête -->
+    <header style=" background: url(Illustration/img1.png);">
+        <div class="nav-list">
+            <h1>SPIDERMAN</h1>
+            <div class="btn">
+                <a href="Heros.html"><button id="btn-1">voir les Héros</button></a>
+               <a href="adversaire.html"> <button id="btn-2">voir les Adversaires</button></a>
+            </div>
+            <h2>L'araignée sympa du quartier !</h2>
+        </div>
+    </header>
+    <!-- SECTION  -->
+    <section class="spider-section">
+        <h3>Les spidermans au cinema</h3>
+        <p id="para1">
+            Spiderman a pu bénéficier de reboot qui ont permis d'adapter ses histoire pour chaque générations !
+        </p>
+        <div class="spider-block">
+        
+            <div class="spider spider1">
+                <img src="Illustration/img2.png">
+                <div class="text">
+                    <p>
+                        Trois films Spiderman sont sortis en 2002, 2004 et 2007. Ils sont produits par Columbia Pictures
+                        et Spiderman est incarné par Tobey Marguire. Un quatrieme était prevus mais sera finalement
+                        annule suite à des désaccords entre Sam Raimi (le rèalisateur) et Sony.
+                    </p>
+                    <p>
+                        Cette prémiere trilogie a connu un grand succès aupres des fans et du grand public. L'épisode 3
+                        reste à ce jour un des films les plus chers de l'histoire du cinéma.
+                    </p>
+                    <a href="Adversaire.html"><button id="button-card">Voir ses Adversaires</button></a>
+                </div>
+            </div>
+
+            
+            <div class="spider2">
+            	<div class="spider spider21">
+                	<img src="Illustration/img3.png"/>
+                	<div class="text">
+                   		<p>
+                        the Amazing Spiderman est sorti en 2012, c'est Andrew Garfield qui incarne le héro et Marc Webb
+                        à la réalisation. Un deuxième voiet, The Amazing Spider-Man : Le destin d'un héros, ets sortir
+                        en 2014 et a reçu des critiques trés mitigées. un troisième et quatrième film étaient prévus
+                        pour 2016 et 2018. Finalement, Marvel et Sony trouvent un accord pour introduire Spiderman dans
+                        l'univers cinématographique Marvel et abondonne ainsi The Amazing Spider-Man.
+                    	</p>
+                    	<a href="Adversaire.html"><button id="button-card">Voir ses Adversaires</button></a>
+               		</div>
+            	</div>
+            	<div class="spider spider22">
+                	<img src="Illustration/img4.png"/>
+                	<div class="text">
+                    	<p>
+                        Spiderman, désormais incarné par Tom Holland, apparait pour la premiere fois dans l'Univers
+                        Marvel avec Captain America: Civil War, Sorti en 2006. Par la suite, une triogie de films lui
+                        est consacrée :
+                    	</p>
+                    	<p>.Spiderman: Homecoming (2017)</p>
+                    	<p>.Spiderman: Far From Home (2019)li></p>
+                    	<p>.Spiderman: No Way Home (2021)</p>
+                    	<p>
+                        Le héro ets également présent dans Avengers infinity war et Avengers End Game, Commbattant au
+                        côté des Avengers.
+                    	</p>
+
+                    	<a href="Adversaire.html"><button id="button-card">Voir ses Adversaires</button></a>
+                	</div>
+            	</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION FORMULAIRES -->
+    <section class="section-blue">
+        <div class="image">
+            <img src="Illustration/img5.png">
+        </div>
+        <div class="form">
+            <h2>DEViENS SPIDERMAN !</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, eum.
+            </p>
+            <form>
+                <input type="text" name="nom" placeholder="Nom">
+                <input type="text" name="Prénom" placeholder="Prénom">
+                <input type="text" name="Taille" placeholder="Taille(cm)">
+                <input type="text" name="Poids" placeholder="Poids(kg)">
+                <input type="text" name="Adresse-email" placeholder="Adresse email">
+            </form>
+            <button id="send">Envoyer</button>
+        </div>
+    </section>
+
+    <!-- SECTION RED  -->
+    <section class="section-red">
+        <div class="sign-up">
+            <div class="titre">
+                <h2>INSCRIT TOI &Agrave; LA NEWS LETTER !</h2>
+                <h3>L'univers de l'araignée justicière te passionne ? Reste au courant des dernières actualités grâce à
+                    notre newsletter !</h3>
+            </div>
+            <form>
+                <input type="text" placeholder="Nom et Prénom">
+                <input type="text" placeholder="Adresse email">
+                <div class="check-box">
+                    <input type="checkbox" name="check" id="box">
+                    <p>je reconnais accepter la <span href="#">politique de confidentialité</span> de Sayna X Marvel.
+                    </p>
+                </div>
+            </form>
+            <button class="sign-up">S'inscrire à la newsletter</button>
+        </div>
+        <div class="img-spnoir">
+            <img src="Illustration/img6.png" alt="spiderman noir">
+        </div>
+    </section>
+    <!-- Pied du page  -->
+    <footer>
+        <div class="nav-foot">
+            <div class="liste">
+                <div class="bloc">
+                    <div class="container">
+                        <a href="# ">Mobile App</a>
+                        <a href="# ">Politique de confidentialité</a>
+                        <a href="# ">Cookies</a>
+                    </div>
+                    <div class="item none">
+                        <a href="#">Contact</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#">Contact</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div class="logos">
+                    <a href="#"><img src="Logo/logo1.png"></a>
+                    <a href="#"><img src="Logo/logo2.png"></a>
+                    <a href="#"><img src="Logo/logo3.png"></a>
+                </div>
+                <select name="langue" id="langue">
+                        <option value="Français">Français</option>
+                        <option value="Português">Português</option>
+                        <option value="Español">Español</option>
+                        <option value="Français">Langue</option>
+                        <option value="Anglais">English</option>
+                </select>
+            </div>
+        </div>
+        <div class="footer-icone">
+            <a href="#"><img src="Logo/logof.png" alt="Facebook"></a>
+            <a href="#"><img src="Logo/logoi.png" alt="Instagramme"></a>
+            <a href="#"><img src="Logo/logot.png" alt="Youtube"></a>
+            <a href="#"><img src="Logo/logoy.png" alt="Twetter"></a>
+        </div>
+        <p>&copy;SaynaMarvel, Inc. 2022. We love our users!</p>
+        <audio loop autoplay> 
+            <source src="Audio/audio1.mp3" type="">
+        </audio>
+    </footer>
+</body>
+</html>
